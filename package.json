@@ -12,6 +12,7 @@
     "@storybook/addon-actions": "^4.0.9",
     "@storybook/react": "^4.0.9",
     "babel-eslint": "^9.0.0",
+    "enzyme-to-json": "^3.3.5",
     "eslint": "^5.4.0",
     "eslint-config-umi": "^0.1.5",
     "eslint-plugin-flowtype": "^2.50.0",
