@@ -3,16 +3,18 @@ import { shallow } from 'enzyme'
 import Button from '..'
 
 describe('Button', () => {
-  it('render correctly', () => {
+  it('renders primary style', () => {
     const button = shallow(<Button primary>Click</Button>)
-    expect(button.hasClass('primary')) 
+    expect(button).toMatchSnapshot()
+  })
 
-    button.setProps({ icon: 'icon-search' })
-    expect(button.find('i.icon-search').exists())
-
-    button.setProps({ primary: false, warning: true })
-    expect(button.hasClass('warning')) 
-
+  it('renders warning style', () => {
+    const button = shallow(<Button warning>Click</Button>)
+    expect(button).toMatchSnapshot()
+  })
+  
+  it('renders with icon', () => {
+    const button = shallow(<Button icon="icon-search">Click</Button>)
     expect(button).toMatchSnapshot()
   })
 })
