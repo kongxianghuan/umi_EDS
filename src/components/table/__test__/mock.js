@@ -1,0 +1,61 @@
+export const data = [
+  { key: 1, name: 'ben', age: 41, address: 'guangdong', country: 'China' },
+  { key: 2, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 3, name: 'aya', age: 31, address: 'shanxi', country: 'China' },
+  { key: 4, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 5, name: 'jack', age: 24, address: 'shenzhen', country: 'China' }
+]
+
+export const columns = [
+  { key: 1, dataIndex: 'name', title: 'name' },
+  { key: 2, dataIndex: 'age', title: 'age' },
+  { key: 3, dataIndex: 'address', title: 'address' },
+  { key: 4, dataIndex: 'country', title: 'country' },
+  {
+    key: 5, dataIndex: 'action', title: 'action',
+    render: (text, record) => <button>click me</button>
+  },
+]
+
+export const pagingData = [
+  { key: 1, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 2, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 3, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 4, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 5, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+  { key: 11, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 12, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 13, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 14, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 15, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+  { key: 21, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 22, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 23, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 24, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 25, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+  { key: 31, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 32, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 33, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 34, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 35, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+  { key: 41, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 42, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 43, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 44, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 45, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+  { key: 51, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 52, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 53, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 54, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 55, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+  { key: 61, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 62, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 63, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 64, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 65, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+  { key: 71, name: 'ben', age: 41, address: 'guangdong', country: 'china' },
+  { key: 72, name: 'doge', age: 21, address: 'london', country: 'UK' },
+  { key: 73, name: 'aya', age: 31, address: 'shanxi', country: 'china' },
+  { key: 74, name: 'cat', age: 11, address: 'newyork', country: 'USA' },
+  { key: 75, name: 'jack', age: 24, address: 'shenzhen', country: 'china' },
+]

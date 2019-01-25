@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render correctly 1`] = `
+<Table
+  columns={
+    Array [
+      Object {
+        "dataIndex": "name",
+        "key": 1,
+        "title": "name",
+      },
+      Object {
+        "dataIndex": "age",
+        "key": 2,
+        "title": "age",
+      },
+      Object {
+        "dataIndex": "address",
+        "key": 3,
+        "title": "address",
+      },
+      Object {
+        "dataIndex": "country",
+        "filterable": true,
+        "key": 4,
+        "title": "country",
+      },
+      Object {
+        "dataIndex": "action",
+        "key": 5,
+        "render": [Function],
+        "title": "action",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "address": "guangdong",
+        "age": 41,
+        "country": "China",
+        "key": 1,
+        "name": "ben",
+      },
+      Object {
+        "address": "london",
+        "age": 21,
+        "country": "UK",
+        "key": 2,
+        "name": "doge",
+      },
+      Object {
+        "address": "shanxi",
+        "age": 31,
+        "country": "China",
+        "key": 3,
+        "name": "aya",
+      },
+      Object {
+        "address": "newyork",
+        "age": 11,
+        "country": "USA",
+        "key": 4,
+        "name": "cat",
+      },
+      Object {
+        "address": "shenzhen",
+        "age": 24,
+        "country": "China",
+        "key": 5,
+        "name": "jack",
+      },
+    ]
+  }
+  loading={false}
+  pagination={Object {}}
+>
+  <div
+    className="eds-table"
+  >
+    <div
+      className="eds-table-loading hidden"
+    >
+      <Loading
+        size="medium"
+        type="div"
+      >
+        <div
+          className="center"
+        >
+          <div
+            className="loading medium"
+          />
+        </div>
+      </Loading>
+    </div>
+    <table
+      className="table  filterable"
+    >
+      <thead>
+        <tr>
+          <th
+            className={Array []}
+            key="1"
+            onClick={null}
+          >
+            name
+          </th>
+          <th
+            className={Array []}
+            key="2"
+            onClick={null}
+          >
+            age
+          </th>
+          <th
+            className={Array []}
+            key="3"
+            onClick={null}
+          >
+            address
+          </th>
+          <th
+            className={Array []}
+            key="4"
+            onClick={null}
+          >
+            country
+            <Dropdown
+              icon="icon-filter"
+              itemChange={[Function]}
+              key="eds-table-dropdown"
+              operationItem={
+                Array [
+                  "All",
+                  "China",
+                  "UK",
+                  "USA",
+                ]
+              }
+              seletedItem="country"
+              type="inline"
+            >
+              <div
+                className="dropdown"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <div
+                  style={null}
+                >
+                  <button
+                    className="icon icon-filter"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                  />
+                  <div
+                    className="menu "
+                  >
+                    <div
+                      className="item"
+                      key="0"
+                      onClick={[Function]}
+                    >
+                      All
+                    </div>
+                    <div
+                      className="item"
+                      key="1"
+                      onClick={[Function]}
+                    >
+                      China
+                    </div>
+                    <div
+                      className="item"
+                      key="2"
+                      onClick={[Function]}
+                    >
+                      UK
+                    </div>
+                    <div
+                      className="item"
+                      key="3"
+                      onClick={[Function]}
+                    >
+                      USA
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Dropdown>
+          </th>
+          <th
+            className={Array []}
+            key="5"
+            onClick={null}
+          >
+            action
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className=""
+          key="1"
+        >
+          <td
+            key="1"
+          >
+            ben
+          </td>
+          <td
+            key="2"
+          >
+            41
+          </td>
+          <td
+            key="3"
+          >
+            guangdong
+          </td>
+          <td
+            key="4"
+          >
+            China
+          </td>
+          <td
+            key="5"
+          >
+            <button>
+              click me
+            </button>
+          </td>
+        </tr>
+        <tr
+          className=""
+          key="3"
+        >
+          <td
+            key="1"
+          >
+            aya
+          </td>
+          <td
+            key="2"
+          >
+            31
+          </td>
+          <td
+            key="3"
+          >
+            shanxi
+          </td>
+          <td
+            key="4"
+          >
+            China
+          </td>
+          <td
+            key="5"
+          >
+            <button>
+              click me
+            </button>
+          </td>
+        </tr>
+        <tr
+          className=""
+          key="5"
+        >
+          <td
+            key="1"
+          >
+            jack
+          </td>
+          <td
+            key="2"
+          >
+            24
+          </td>
+          <td
+            key="3"
+          >
+            shenzhen
+          </td>
+          <td
+            key="4"
+          >
+            China
+          </td>
+          <td
+            key="5"
+          >
+            <button>
+              click me
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</Table>
+`;

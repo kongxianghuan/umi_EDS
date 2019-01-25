@@ -19,5 +19,6 @@
 
 # idea
 .idea
+.vscode
 
 coverage

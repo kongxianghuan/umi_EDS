@@ -1,17 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button render correctly 1`] = `
-<button
-  className="btn  warning"
->
-  <i
-    className="icon icon-search"
-  />
-  Click
-</button>
-`;
-
-exports[`Button renders primary style 1`] = `
+exports[`Button should render primary style 1`] = `
 <button
   className="btn primary "
 >
@@ -19,7 +8,7 @@ exports[`Button renders primary style 1`] = `
 </button>
 `;
 
-exports[`Button renders warning style 1`] = `
+exports[`Button should render warning style 1`] = `
 <button
   className="btn  warning"
 >
@@ -27,7 +16,7 @@ exports[`Button renders warning style 1`] = `
 </button>
 `;
 
-exports[`Button renders with icon 1`] = `
+exports[`Button should render with icon 1`] = `
 <button
   className="btn  "
 >
